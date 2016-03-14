@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '2CEF91C59EA493FA1B6A55FE3A9DFBA2'
+               BlueprintIdentifier = 'D482273D720BD25A963EC87D'
                BlueprintName = 'CustomUIKit'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libCustomUIKit.a'>

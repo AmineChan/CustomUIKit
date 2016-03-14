@@ -17,11 +17,11 @@
   "requires_arc": true,
   "dependencies": {
     "HMSegmentedControl": [
-      "~> 1.5.2"
+
     ]
   },
   "source_files": "CustomUIKit/*.{h,m}",
-  "resources": "CustomUIKit/*.{xib,png,storyboard}",
+  "resources": "CustomUIKit/*.{xib,png}",
   "frameworks": [
     "Foundation",
     "CoreGraphics",

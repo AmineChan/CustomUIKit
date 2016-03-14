@@ -19,5 +19,5 @@
 #import "UITableViewCell+CUAddtion.h"
 #import "UIView+CUAddtion.h"
 #import "UIViewController+CUAddtion.h"
-
+#import "UIPageControl+CUAddtion.h"
 #endif

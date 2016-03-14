@@ -1,4 +1,4 @@
-source 'https://github.com/mingailei/specs.git'
+source 'https://github.com/AmineChan/specs.git'
 source 'https://github.com/CocoaPods/Specs.git'
 
 platform :ios ,'7.0'

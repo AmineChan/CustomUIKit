@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'EE89E4A9AF8FFB3F43B9CBB0A8CCF4B5'
+               BlueprintIdentifier = '0F7342F02C50A2373DC4619A'
                BlueprintName = 'UIKit+CUAddtion'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libUIKit+CUAddtion.a'>

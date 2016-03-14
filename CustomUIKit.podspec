@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.source       = { :git  => "https://github.com/AmineChan/CustomUIKit.git", :tag => s.version }
 
   s.requires_arc  = true
-  s.dependency 'HMSegmentedControl', '~> 1.5.2'
+  s.dependency 'HMSegmentedControl'
 
   s.source_files  = 'CustomUIKit/*.{h,m}'
   s.resources = 'CustomUIKit/*.{xib,png}'

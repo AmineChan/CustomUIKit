@@ -19,20 +19,17 @@ NS_ASSUME_NONNULL_BEGIN
 @interface UIColor (CUAddtion)
 
 /**
- *  example:
-        [UIColor cu_colorWithHex:0xff0000]
+ *  e.g. [UIColor cu_colorWithHex:0xff0000]
  */
 + (UIColor *)cu_colorWithHex:(NSInteger)rgbHexValue;
 
 /**
- *  example:
-        [UIColor cu_colorWithHex:0xff0000 alpha:1]
+ *  e.g. [UIColor cu_colorWithHex:0xff0000 alpha:1]
  */
 + (UIColor *)cu_colorWithHex:(NSInteger)rgbHexValue alpha:(CGFloat)alpha;
 
 /**
- * example:
-        [UIColor cu_colorWithHexString:@"0xffffff"]
+ * e.g. [UIColor cu_colorWithHexString:@"0xffffff"]
  */
 + (UIColor *)cu_colorWithHexString:(NSString *)hexStr;
 
