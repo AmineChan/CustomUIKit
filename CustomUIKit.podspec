@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.requires_arc  = true
   s.dependency 'HMSegmentedControl', '~> 1.5.2'
 
-  s.source_files  = "CustomUIKit/*.{h,m}"
+  s.source_files  = 'CustomUIKit/*.{h,m}'
   s.resources = 'CustomUIKit/*.{xib,png}'
 
   s.frameworks = 'Foundation', 'CoreGraphics', 'UIKit'
