@@ -9,11 +9,11 @@ target "Example" do
 pod 'CustomUIKit', :path => '../'
 # 私有库方式
 #pod 'CustomUIKit'
-#pod 'CustomUIKit', :git => "https://github.com/mingailei/CustomUIKit.git", :tag => "0.0.1"
+#pod 'CustomUIKit', :git => "https://github.com/AmineChan/CustomUIKit.git", :tag => "0.0.1"
 #pod 'CustomUIKit', :head
 
 pod 'UIKit+CUAddtion', '~> 0.0.1'
-#pod 'UIKit+CUAddtion', :git => "https://github.com/mingailei/UIKit-CUAddtion.git", :tag => "0.0.1"
+#pod 'UIKit+CUAddtion', :git => "https://github.com/AmineChan/UIKit-CUAddtion.git", :tag => "0.0.1"
 #pod 'UIKit+CUAddtion', :head
 
 pod 'Masonry', '~> 0.6.1'
