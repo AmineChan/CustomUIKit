@@ -1,0 +1,32 @@
+source 'https://github.com/mingailei/specs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios ,'7.0'
+#use_frameworks!
+
+target "Example" do
+# 本地库方式
+pod 'CustomUIKit', :path => '../'
+# 私有库方式
+#pod 'CustomUIKit'
+#pod 'CustomUIKit', :git => "https://github.com/mingailei/CustomUIKit.git", :tag => "0.0.1"
+#pod 'CustomUIKit', :head
+
+pod 'UIKit+CUAddtion', '~> 0.0.1'
+#pod 'UIKit+CUAddtion', :git => "https://github.com/mingailei/UIKit-CUAddtion.git", :tag => "0.0.1"
+#pod 'UIKit+CUAddtion', :head
+
+pod 'Masonry', '~> 0.6.1'
+#pod 'Masonry', :path => "~/Documents/git_repository/Masonry"
+
+end
+
+post_install do |installer|
+    installer.pod_targets.each do |target|
+        if target.name == "CustomUIKit"
+            myFile = File.new(target.prefix_header_path,"a");
+            myFile.puts "#define CULoadMoreControlAutoLoad"
+            myFile.close
+        end
+    end
+end

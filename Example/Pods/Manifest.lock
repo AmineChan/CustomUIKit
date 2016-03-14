@@ -1,0 +1,25 @@
+PODS:
+  - CustomUIKit (0.0.1):
+    - HMSegmentedControl (~> 1.5.2)
+  - HMSegmentedControl (1.5.2)
+  - Masonry (0.6.4)
+  - UIKit+CUAddtion (0.0.2)
+
+DEPENDENCIES:
+  - CustomUIKit (from `../`)
+  - Masonry (~> 0.6.1)
+  - UIKit+CUAddtion (~> 0.0.1)
+
+EXTERNAL SOURCES:
+  CustomUIKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CustomUIKit: 455f657e3db9834e3a789823686cf2be050a4d08
+  HMSegmentedControl: 83b9686022d2176fb6457d2bdb61e5d6393fed7d
+  Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
+  UIKit+CUAddtion: 81aecd946e569c7b00399433c18d33bc8ce0d5e1
+
+PODFILE CHECKSUM: 3d63114d8cf3e44c7b0873d00be845386b5c9c48
+
+COCOAPODS: 1.0.0.beta.4

@@ -1,0 +1,30 @@
+{
+  "name": "CustomUIKit",
+  "version": "0.0.1",
+  "summary": "CustomUIKit.",
+  "homepage": "https://github.com/AmineChan",
+  "license": "MIT",
+  "authors": {
+    "czm": "328525910@qq.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "https://github.com/AmineChan/CustomUIKit.git",
+    "tag": "0.0.1"
+  },
+  "requires_arc": true,
+  "dependencies": {
+    "HMSegmentedControl": [
+      "~> 1.5.2"
+    ]
+  },
+  "source_files": "CustomUIKit/*.{h,m}",
+  "resources": "CustomUIKit/*.{xib,png,storyboard}",
+  "frameworks": [
+    "Foundation",
+    "CoreGraphics",
+    "UIKit"
+  ]
+}

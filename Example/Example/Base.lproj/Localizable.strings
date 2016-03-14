@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  Example
+
+  Created by czm on 16/3/9.
+  Copyright © 2016年 czm. All rights reserved.
+*/
+
+kConfirmButtonTitile = "ok";
+kConfirmButtonCancel = "cancel";
+

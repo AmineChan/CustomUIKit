@@ -1,0 +1,32 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "41F4C81800C868F38B3F1D333C20DDBA26765162",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "41F4C81800C868F38B3F1D333C20DDBA26765162" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "6FC4832245A6A8E50F2A782F20A8B58A46BD1FEB" : 0,
+    "41F4C81800C868F38B3F1D333C20DDBA26765162" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C0757B8D-95BB-4BD8-AEE5-D6570F5D92F3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "6FC4832245A6A8E50F2A782F20A8B58A46BD1FEB" : "..\/..\/Documents\/git_repository\/Masonry",
+    "41F4C81800C868F38B3F1D333C20DDBA26765162" : "CustomUIKit\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Example",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example\/Example.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/192.168.1.103\/svn\/ecoalstore",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "41F4C81800C868F38B3F1D333C20DDBA26765162"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/SnapKit\/Masonry.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6FC4832245A6A8E50F2A782F20A8B58A46BD1FEB"
+    }
+  ]
+}
