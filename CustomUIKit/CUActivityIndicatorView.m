@@ -195,7 +195,7 @@
     
     _superViewOriginUserInteractionEnabled = onView.userInteractionEnabled;
     onView.userInteractionEnabled = NO;
-
+    
     _startWhenMoveToWindow = YES;
     [onView addSubview:self];
     [onView bringSubviewToFront:self];
