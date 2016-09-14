@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "CustomUIKit"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "CustomUIKit."
   s.homepage     = "https://github.com/AmineChan"
   s.license      = "MIT"
