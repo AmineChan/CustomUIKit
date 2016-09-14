@@ -12,7 +12,7 @@
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C0757B8D-95BB-4BD8-AEE5-D6570F5D92F3",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
     "750034CD48188C5629262BB571B6DE6069ABEAA3" : "CustomUIKit\/",
-    "6FC4832245A6A8E50F2A782F20A8B58A46BD1FEB" : "..\/..\/Documents\/git_repository\/Masonry"
+    "6FC4832245A6A8E50F2A782F20A8B58A46BD1FEB" : "..\/git_repository\/Masonry"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "Example",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
