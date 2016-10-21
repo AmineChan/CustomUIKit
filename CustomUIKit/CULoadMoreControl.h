@@ -26,7 +26,7 @@ typedef NS_ENUM(NSInteger, CULoadMoreControlState) {
     CULoadMoreControlState _loadMoreState;
     UILabel *_statusLabel;
     UIActivityIndicatorView *_activityView;
-    UITableView *_tableView;
+    __weak UITableView *_tableView;
 }
 
 @property(nonatomic, weak) id<CULoadMoreControlDelegate> delegate;
