@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "CustomUIKit"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "CustomUIKit."
   s.homepage     = "https://github.com/AmineChan"
   s.license      = "MIT"
@@ -16,4 +16,5 @@ Pod::Spec.new do |s|
   s.resources = 'CustomUIKit/*.{xib,png}'
 
   s.frameworks = 'Foundation', 'CoreGraphics', 'UIKit'
+  s.module_name = 'CustomUIKit'
 end
